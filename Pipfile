@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+rws-common = {path = "./rws-common"}
+flask = "*"
+honeycomb = "*"
+sqlalchemy = "*"
+flask-sqlalchemy = "*"
+psycopg2 = "*"
+gunicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
