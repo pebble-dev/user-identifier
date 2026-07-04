@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 rws-common = {path = "./rws-common"}
-flask = "*"
+flask = "<3"
 honeycomb = "*"
 sqlalchemy = "*"
 flask-sqlalchemy = "*"
